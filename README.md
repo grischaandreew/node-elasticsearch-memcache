@@ -21,10 +21,6 @@ You need also the memcached plugin installed at your elasticsearch instance, tak
 Introduction
 ============
 
-This is a node.js driver for MongoDB. It's a port (or close to a port) of the library for ruby at http://github.com/mongodb/mongo-ruby-driver/.
-
-A simple example of inserting a document.
-
 ```javascript
 		var es = require("elasticsearch-memcache");
 		
