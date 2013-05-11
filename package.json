@@ -7,7 +7,7 @@
     "memcache",
     "bulk"
   ],
-  "version": "0.0.0-pre",
+  "version": "0.0.0",
   "author": "Grischa Andreew <ga@andreew.ag>",
   "contributors": [],
   "repository": {
