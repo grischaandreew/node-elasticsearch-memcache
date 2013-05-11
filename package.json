@@ -1,7 +1,12 @@
 {
   "name": "elasticsearch-memcache",
   "description": "A node.js driver for elasticsearch over the memcache protocol",
-  "keywords": ["elasticsearch", "driver", "memcache"],
+  "keywords": [
+    "elasticsearch",
+    "driver",
+    "memcache",
+    "bulk"
+  ],
   "version": "0.0.0-pre",
   "author": "Grischa Andreew <ga@andreew.ag>",
   "contributors": [],
@@ -14,8 +19,13 @@
   "engines": {
     "node": ">=0.6.19"
   },
-  "licenses": [{
-    "type": "Apache License, Version 2.0",
-    "url": "http://www.apache.org/licenses/LICENSE-2.0"
-  }]
+  "readmeFilename": "README.md",
+  "gitHead": "dcd1ddfb33260790bd1b35f687f1a448bbfdf051",
+  "bugs": {
+    "url": "https://github.com/grischaandreew/node-elasticsearch-memcache/issues"
+  },
+  "scripts": {
+    "test": "node example.js"
+  },
+  "license": "BSD"
 }
